@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(214, 212, 212);
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box {
+  width: 30%;
+  height: 40%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+}
+.box button {
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  color: white;
+}
+
+p{
+    color: rgb(76 175 80);
+    font : bold;
+    font-size: 1.8em;
+}
+
+#deposit {
+  background-color: rgb(76 175 80);
+}
+
+#withdraw {
+  background-color: red;
+}

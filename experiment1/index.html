@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Registration form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form id="student-form" class="form">
-      <input placeholder="Please Enter your Name" type="text" required />
-      <input placeholder="Email Address" type="email" required />
-      <input placeholder="Age" type="number" required />
-      <select>
-        <option>Male</option>
-        <option>Female</option>
-      </select>
-      <button type="submit">Submit</button>
-      <button type="reset">Reset</button>
-    </form>
+    <div>
+      <form id="student-form" class="form">
+        <input placeholder="Please Enter your Name" type="text" required />
+        <input placeholder="Email Address" type="email" required />
+        <input placeholder="Age" type="number" required />
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+        <button id="submit-btn" class="btn" type="submit">Submit</button>
+        <button id="reset-btn" class="btn" type="reset">Reset</button>
+      </form>
+    </div>
   </body>
 </html>
