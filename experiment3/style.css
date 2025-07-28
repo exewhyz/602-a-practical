@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* css variables light mode and dark mode */
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --sidebar-color: rgb(237, 236, 236);
+  --navbar-color: rgb(139, 200, 47);
+  --navbar-text-color: #fff;
+}
+
+.dark-theme {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --sidebar-color: rgb(26, 26, 26);
+  --navbar-color: rgb(26, 26, 26);
+  --navbar-text-color: #fff;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 10% 1fr 10%;
+  grid-template-areas:
+    "nav nav"
+    "sidebar main"
+    "footer footer";
+}
+
+#navbar {
+  grid-area: nav;
+  display: flex;
+  width: 100%;
+  padding: 1.2em 1.5em;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--navbar-color);
+  color: var(--navbar-text-color);
+}
+#sidebar {
+  grid-area: sidebar;
+  padding: 1.5em 3em;
+  background-color: var(--sidebar-color);
+}
+#main {
+  grid-area: main;
+  padding: 1.2em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer {
+  grid-area: footer;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--navbar-color);
+  color: var(--navbar-text-color);
+}
