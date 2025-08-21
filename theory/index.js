@@ -19,15 +19,15 @@
 
 // console.log(obj["address"]["country"])
 
-const arr1 = [1, 2, 3, "four"];
-let obj1 = {
-  name: "aniket",
-  age: 5,
-  address: {
-    country: "India",
-    city: "Chandigarh",
-  },
-};
+// const arr1 = [1, 2, 3, "four"];
+// let obj1 = {
+//   name: "aniket",
+//   age: 5,
+//   address: {
+//     country: "India",
+//     city: "Chandigarh",
+//   },
+// };
 
 // for(let i = 0; i < arr1.length; i++){
 //     console.log(arr1[i])
@@ -48,8 +48,30 @@ let obj1 = {
 
 // hello("Aniket", () => console.log("test"));
 
-
 // const test = () => {
 
 // }
 
+// const arr = [1, 2, 3, 4, 5, 6];
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// for( let key in arr){
+//   console.log(key)
+// }
+
+// for(let value of arr){
+//   console.log(value)
+// }
+
+// let n = [];
+// arr.forEach((num, index, a) => {
+//   n.push(num * 2);
+// });
+
+// console.log(n);
+
+// const updated = arr.filter((num) => {
+//   return num % 2 === 0;
+// });
