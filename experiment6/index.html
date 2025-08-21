@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing Board</title>
+    <style>
+        #canvas{
+            border: 1px dashed black;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Drawing Board</h1>
+    <div>
+        <input id="color" type="color">
+        <input id="size" type="range" value="2">
+        <button id="clear-btn">Clear</button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
